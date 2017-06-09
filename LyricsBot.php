@@ -7,14 +7,14 @@ header('Content-Type: text/html; charset=utf-8');
 
 /** Set access tokens here - see: https://apps.twitter.com/ **/
 $APIsettings = array(
-    'oauth_access_token' => $oauthToken,
-    'oauth_access_token_secret' => $oauthTokenSecret,
-    'consumer_key' => $consumerKey,
-    'consumer_secret' => $consumerSecret
+    'oauth_access_token' => 	866766569107587072-ByYjqd2YoyF2H6JvSBC8ThG9QeW51Yk,
+    'oauth_access_token_secret' => 	WfAhEiJjQFAibsbczSModnr1mxFMWmad77sigZXc9NNaI,
+    'consumer_key' => 	X2EjLo8GInagF7LpiTrHWTlGl,
+    'consumer_secret' => DY3zzbsCohO4yFRMiMsrcxObhfnWn6YSpg4sIGWe8wf4Kc1hvf
 );
 
 /** Set Lyrics Wikia Artist Page here **/
-$artistWikiaLink = "LYRICS_WIKIA_ARTIST_PAGE"; // For example, for Manchester Orchestra: http://lyrics.wikia.com/wiki/Manchester_Orchestra
+$artistWikiaLink = "http://lyrics.wikia.com/wiki/One_Direction"; // For example, for Manchester Orchestra: http://lyrics.wikia.com/wiki/Manchester_Orchestra
 
 // Get list of songs with lyrics from artist page
 $artistLink = substr(strrchr( $artistWikiaLink, '/' ), 1);
