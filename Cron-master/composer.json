@@ -1,4 +1,10 @@
 {
+    $ composer require cron/cron
+    {
+    "require": {
+        "cron/cron": "^1.0"
+    }
+}
     "name": "cron/cron",
     "type": "library",
     "description": "Cronjobs",
